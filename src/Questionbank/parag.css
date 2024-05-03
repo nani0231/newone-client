@@ -1,0 +1,101 @@
+.paragCreate {
+    border: 1px solid black;
+    /* background-color: red; */
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px;
+  }
+  
+  .paragSubject {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .paragChapter {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .paragRef {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .paragbtn {
+    padding: 5px 10px;
+    background-color:#981a96;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .paragInsert {
+    padding: 5px 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(14, 14, 206);
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .paragImg {
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(14, 14, 206);
+    color: rgb(14, 14, 206);
+  }
+  
+  .paragView {
+    margin-top: 20px;
+  }
+  .tableContainer {
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: fit-content;
+  }
+  .tableContainer table thead {
+    background-color: #f0eaea;
+  }
+  .tableContainer table thead tr th,
+  .tableContainer table tbody tr td {
+    width: 13rem;
+    padding: 5px;
+    text-align: center;
+  }
+  .tableContainer table tbody tr td {
+    border-bottom: 1px solid #c9c5c2;
+  }
+  .paragQuestionBtn {
+    padding: 3px 4px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 76, 11, 0.836);
+    color: #fff;
+  }
+  
+  .paragEdit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .paragEyeIcon {
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+  }
+  .paragShow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+  }
+  
+  .paragTableHeading {
+    margin: 20px;
+  }
+  

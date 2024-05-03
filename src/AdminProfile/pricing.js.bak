@@ -1,0 +1,155 @@
+import React from "react";
+import Sidebar from "../Sidebar";
+import { useState, useRef, useEffect } from "react";
+import { DataGrid } from "@mui/x-data-grid";
+
+const Pricing = () => {
+	const [isOpen, setIsOpen] = useState(true);
+	const [loading, setLoading] = useState(true);
+
+	const mountedRef = useRef(true);
+
+	const toggleSidebar = () => {
+		setIsOpen(!isOpen);
+		menuBtnChange();
+	};
+
+	const menuBtnChange = () => {
+		const sidebar = document.querySelector(".sidebar");
+		const closeBtn = document.querySelector("#btn");
+		const searchBtn = document.querySelector(".bx-search");
+
+		if (sidebar?.classList.contains("open")) {
+			closeBtn?.classList.replace("bx-menu", "bx-menu-alt-right");
+		} else {
+			closeBtn?.classList.replace("bx-menu-alt-right", "bx-menu");
+		}
+	};
+
+	const columns = [
+		{ field: "SNO", headerName: "S.NO", width: 100,  },
+		{
+			field: "AccessPeriod",
+			headerName: "AccessPeriod",
+			width: 120,
+		
+		},
+		{
+			field: "AssessmentPractice",
+			headerName: "AssessmentPractice",
+			width: 200,
+			
+		},
+		{
+			field: "AssessmentPracticeLMS",
+			headerName: "AssessmentPracticeLMS",
+			width: 220,
+			
+		},
+		{
+			field: "AssessmentPracticeInstitution",
+			headerName: "AssessmentPracticeInstitution",
+			width: 240,
+		
+		},
+		{
+			field: "AssessmentPracticeLMSInstitution",
+			headerName: "AssessmentPracticeLMSInstitution",
+			width: 623,
+		
+		},
+	];
+
+	const data = [
+		{
+			id: 1,
+			SNO: "1",
+			AccessPeriod: "3 Months",
+			AssessmentPractice: "$0.00",
+			AssessmentPracticeLMS: "$0.00",
+			AssessmentPracticeInstitution: "$0.00",
+			AssessmentPracticeLMSInstitution: "$0.00",
+		},
+		{
+			id: 2,
+			SNO: "2",
+			AccessPeriod: "6 Months",
+			AssessmentPractice: "$0.00",
+			AssessmentPracticeLMS: "$80.00",
+			AssessmentPracticeInstitution: "$0.00",
+			AssessmentPracticeLMSInstitution: "$0.00",
+		},
+	];
+
+	useEffect(() => {
+		const timer = setTimeout(() => {
+			setLoading(false);
+		}, 1000); // Simulating a 2-second loading delay
+		return () => clearTimeout(timer);
+	}, []);
+
+	return (
+		<div>
+			<div className="container-fluid ">
+				<div className="row">
+					{isOpen && (
+						<div className=" col-12 col-lg-3 col-md-12 sectioncard121">
+							<Sidebar />
+						</div>
+					)}
+					<div
+						className={`my-3 col-12 col-md-${isOpen ? 12 : 10} col-lg-${
+							isOpen ? 9 : 12
+						}`}
+					>
+						{loading ? (
+							<>
+								<div
+									className="d-flex flex-row justify-content-center align-items-center"
+									style={{ height: "100vh" }}
+								>
+									<div className="loader loader1">
+										<div>
+											<div>
+												<div>
+													<div>
+														<div>
+															<div></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</>
+						) : (
+							<div>
+								<i
+									className="fa-solid fa-bars bars  d-lg-block d-none"
+									onClick={toggleSidebar}
+								></i>
+
+								<h3 className="text-center mb-3" style={{color:"#16c3ea"}}>Pricing Details</h3>
+								<div className="mt-4" style={{ height: "auto", width: "100%" }}>
+									<DataGrid
+										rows={data}
+										columns={columns}
+										initialState={{
+											pagination: {
+												paginationModel: { page: 0, pageSize: 5 },
+											},
+										}}
+										pageSizeOptions={[5, 10]}
+									/>
+								</div>
+							</div>
+						)}
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+};
+
+export default Pricing;

@@ -1,0 +1,354 @@
+.courses-wrapper {
+  margin-top: 50px;
+  /* background-color: blue; */
+  border-top: 0.2px solid #c9cccf;
+  padding-top: 25px;
+}
+
+.coursesbtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: ; */
+  gap: 10px;
+}
+/* .coursesMain {
+  /* background-color: red; */
+/* height: 100vh; */
+/* overflow: hidden; */
+.cardsBox {
+  /* height:100vh; */
+  /* background-color: yellow; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 15px 30px;
+}
+.cardtopicLi {
+  list-style: none;
+}
+.mainCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 10px 10px 150px;
+}
+.cardContainer {
+  display: block;
+  top: 0px;
+  position: relative;
+  padding: 25px;
+  height: fit-content;
+  width: 15rem;
+  background: linear-gradient(to bottom right, #c8eaf2 10%, #eff7f9 30%);
+  border: 1px solid #dcdcdf;
+  border-radius: 5px;
+  z-index: 0;
+  overflow: hidden;
+
+  &:hover {
+    transition: all 0.3s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    /* background: #00838d; */
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+  }
+
+  &:hover:before {
+    transform: scale(2.15);
+  }
+}
+.cardPaidUl {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.cardProgramming {
+  font-size: 12px;
+  border: 1px solid #16c3ea;
+  border-radius: 20px;
+  color: #16c3ea;
+  padding: 1.2px 3px;
+  font-weight: 600;
+  background-color: #cceee6;
+}
+
+.cardPaid {
+  font-size: 12px;
+  border: 0.3px solid #e43f52;
+  border-radius: 20px;
+  color: #e43f52;
+  padding: 1.2px 3px;
+  font-weight: 600;
+  background-color: #efd1da;
+}
+.cardHeading {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.cardTopics {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 0.2px solid #c9cccf;
+}
+
+.cardTopics > li > i {
+  font-size: 14px;
+  color: #17a2b8;
+}
+
+.cardTopicSpan {
+  font-size: 14px;
+  margin-left: 5px;
+  color: #78abb4;
+}
+.cardBtn {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid black;
+  background: transparent;
+  border-radius: 5px;
+  font-weight: 550;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+.cardBtn:hover {
+  transition: 1s ease-in-out;
+  background: #16c3ea;
+  color: #000;
+}
+.cardBtn1 {
+  width: fit-content;
+  padding: 5px;
+  border: 1px solid black;
+  background: transparent;
+  border-radius: 5px;
+  font-weight: 550;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+.cardBtn1:hover {
+  transition: 1s ease-in-out;
+  background: #4f95da;
+  color: #fbfcff;
+}
+.coursesDetailsMainWrapper {
+  min-height: 100vh;
+  padding: 0;
+}
+
+.detailsHeader {
+  padding: 50px 70px;
+  height: 17rem;
+  background-color: #141f31;
+  color: #fbfcff;
+  background-image: url("https://instacks.co/pattern.c055f899153504e51117.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Hero-Section {
+  display: flex;
+  gap: 10px;
+  /* margin: 30px 50px; */
+  margin: 50px auto 0 auto;
+  padding: 10px 15px;
+}
+.heroleft {
+  /* height: 4rem; */
+  background-color: rebeccapurple;
+  width: 70%;
+  /* padding: 15px 25px 0 25px; */
+  background-color: #f7f7ff;
+}
+.heroright {
+  height: fit-content;
+  width: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 30px;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 5px;
+  box-shadow: -1px 0px 10px -1px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: -1px 0px 10px -1px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: -1px 0px 10px -1px rgba(0, 0, 0, 0.26);
+}
+
+.heroImg {
+  height: 10rem;
+  width: 100%;
+  /* background-image: url("angular.png"); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+.ImgMain {
+  width: 15rem;
+  height: 8rem;
+  border-radius: 8px;
+}
+.heroRightBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroRightBtnBox {
+  padding: 4px 8px;
+  background-color: #16c3ea;
+  color: #000000;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-weight: 500;
+}
+.mappedLi {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.innerMappedIcon {
+  margin-right: 5px;
+}
+
+
+.innerMappedIcon2{
+  margin-right: 7px;
+}
+
+.detailsSubSection {
+  margin: 50px auto 0 auto;
+  padding: 10px 15px;
+}
+
+.detailsSubSection > ul > li {
+  list-style: inside;
+}
+
+.descripText {
+  width: 70%;
+}
+
+.keyTopicSection {
+  margin: 50px auto 0 auto;
+}
+
+.contentBoxMain {
+  background-color: #f6f7f8;
+  width: 70%;
+  padding: 5px 7px;
+  border-radius: 8px;
+  cursor: pointer;
+  /* margin-bottom: 10px; */
+}
+.contentBoxMain > span > i {
+  margin-right: 10px;
+  /* margin-bottom: 10px; */
+}
+.contentBox {
+  padding: 10px;
+  background-color: #ffffff;
+  width: auto;
+  height: 45px;
+  border-radius: 7px;
+  color: #16c3ea;
+  /* box-shadow: 0 0 5px black; */
+}
+.contentBox > i {
+  margin-right: 10px;
+}
+
+.playerWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 10px;
+}
+.playerContainer {
+  /* background-color: blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.playerContainer > ReactPlayer {
+  width: 100%;
+}
+
+.VideoSideBar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.VideoSideBar > ul {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.VideoSideBar > ul > li {
+  background-color: #16c3ea;
+  border: none;
+  font-weight: 550;
+  font-size: 16px;
+  border-radius: 6px;
+  text-transform: capitalize;
+  padding: 7px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  letter-spacing: -1;
+
+}
+
+
+.videoMainHeading {
+  text-transform: capitalize;
+  text-align: left;
+}
+.upNxtHeading {
+  text-align: start;
+  text-decoration: underline;
+}
+
+.reactPlayerBox {
+  height: fit-content;
+  border: 2px solid #16c3ea;
+  /* border-radius: 10px; */
+}
+
+.text-item{
+  color: grey;
+}

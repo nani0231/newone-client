@@ -1,0 +1,196 @@
+.tableContainer1 {
+  margin-top: 30px;
+  /* box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.2); */
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.tableContainer1 table thead {
+  background-color: #f0eaea;
+}
+.tableContainer1 table thead tr th,
+.tableContainer1 table tbody tr td {
+  width: 13rem;
+  padding: 5px;
+  text-align: center;
+}
+.tableContainer1 table thead tr th {
+  font-size: 12px;
+}
+.tableContainer1 table tbody tr td {
+  border-bottom: 1px solid #c9c5c2;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.searchArea {
+  padding: 20px 30px;
+  width: 30vw;
+  /* background-color: red; */
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  /* border: 0.5px solid black; */
+  box-shadow: 0px -1px 6px 0px rgba(0,0,0,0.54);
+  -webkit-box-shadow: 0px -1px 6px 0px rgba(0,0,0,0.54);
+  -moz-box-shadow: 0px -1px 6px 0px rgba(0,0,0,0.54);
+  border-radius: 8px;
+  background-color: #dfe7ee;
+}
+.searchArea > div {
+  /* background-color: yellow; */
+  display: flex;
+  /* align-items: center; */
+  gap: 2px;
+  flex-direction: column;
+}
+.searchArea > div > label {
+  font-size: 14px;
+  font-weight: 550;
+}
+.searchArea > div > select {
+  padding-left: 5px;
+  font-weight: 500;
+  border-radius: 5px;
+  outline: none;
+}
+.btn-box {
+  /* width: fit-content; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn12 {
+  width: fit-content;
+  padding: 5px 8px;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #910a8f;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.eyebtn {
+  color: black;
+}
+
+.headingData {
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.viewPart {
+  /* border: 0.5px solid black; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  height: 5rem;
+  gap: 5px;
+  width: 9.5em;
+  border-radius: 5px;
+  background-color: #fcfcfc;
+  box-shadow: 4px 4px 14px -13px rgba(0, 0, 0, 0.78);
+  -webkit-box-shadow: 4px 4px 14px -13px rgba(0, 0, 0, 0.78);
+  -moz-box-shadow: 4px 4px 14px -13px rgba(0, 0, 0, 0.78);
+}
+
+.fullViewPart {
+  gap: 5px;
+  padding-left: 13px;
+  padding-top: 20px;
+}
+
+.actionsView {
+  margin-top: 15px;
+  /* background-color: red; */
+  height: 6rem;
+  padding: 10px 14px;
+}
+.actionLine {
+  border: 0.2px solid rgb(189, 183, 183);
+  height: 0.2px;
+}
+.ActionBtn-box {
+  margin-top: 15px;
+
+  flex-direction: row;
+  display: flex;
+}
+.ActionBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* .ActionBtn > MdOutlineFileDownload {
+  font-size: 14px;
+  color: black;
+}
+.ActionBtn > CiFilter{
+  font-size: 14px;
+  color: black; */
+
+.ActionBtn > button {
+  padding: 4px 6px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+.actionbtn1 {
+  padding: 4px 6px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(54, 204, 34);
+}
+
+.actionbtn2 {
+  padding: 4px 6px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: #beb9b3;
+}
+
+.actionbtn3 {
+  padding: 4px 6px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(63, 137, 197);
+}

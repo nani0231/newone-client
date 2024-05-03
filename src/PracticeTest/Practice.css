@@ -1,0 +1,255 @@
+.textbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  /* background-color: blue; */
+  padding: 0px 15px;
+}
+
+.paragShow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.edit-icons {
+  font-size: 20px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.btn3 {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #8c008a;
+  color: #fff;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tableContainer14 {
+  margin-top: 30px;
+  /* box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.2); */
+  border-radius: 8px;
+  /* border: 0.2px solid rgb(126, 120, 120); */
+  width: fit-content;
+}
+
+.tableContainer14 table thead {
+  background-color: #f0eaea;
+}
+.tableContainer14 table thead tr th,
+.tableContainer14 table tbody tr td {
+  width: 13rem;
+  padding: 5px;
+  text-align: center;
+}
+.tableContainer table tbody tr td {
+  border-bottom: 1px solid #c9c5c2;
+}
+
+.formUpdate {
+  padding: 10px 15px;
+
+  width: 100%;
+}
+.formUpdate > input {
+  padding: 6px 8px;
+  border-radius: 5px;
+  border: 0.2px solid;
+  outline: none;
+}
+.formUpdate > button {
+  width: fit-content;
+  margin: auto;
+  padding: 3px 6px;
+  border: none !important;
+  border-radius: 5px;
+  background-color: #8c008a;
+  color: #fff;
+  outline: none !important;
+}
+
+.basic {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.headingBasic {
+  font-family: "Roboto";
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+.createWrapper {
+  margin-top: 2rem;
+  /* background-color: red; */
+}
+.sectionWrapper {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 1em;
+  /* background-color: red; */
+  width: 100%;
+}
+
+.sectionWrapper > select {
+  border: none;
+  border-radius: 4px;
+  padding: 0.3em;
+  outline: none;
+}
+.sectionWrapper > input {
+  border: none;
+  border-radius: 4px;
+  padding: 6px 8px;
+  outline: none;
+}
+.testSubJectBox {
+  width: 100%;
+  padding: 10px 20px;
+  height: 22vh;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+.testSubjectInbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.testInput {
+  padding: 3px 6px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: 550;
+  font-size: 14px;
+}
+.questionCard {
+  border-radius: 8px;
+  background-color: #f0eaea;
+  height: 13em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.selectCard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.btnCard {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnBox {
+  border: none;
+  border-radius: 6px;
+  padding: 4px 6px;
+  font-weight: 550;
+}
+
+.btnBox1 {
+  /* width: 100%; */
+  border: none;
+  border-radius: 6px;
+  padding: 4px 6px;
+  font-weight: 550;
+  color: #fff;
+  background-color: #1976d2;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.selectContainer {
+  margin-top: 20px;
+}
+
+.selectChapterList {
+  /* border: 1px solid; */
+  margin-top: 15px;
+  width: 100%;
+  border-radius: 6px;
+  background-color: #f0eaea;
+}
+.checkboxSection {
+  margin-top: 20px;
+  background-color: #f0f0f0;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+
+.checkboxSection1 {
+  display: flex;
+  /* background-color: red; */
+  gap: 10px;
+  /* justify-content: center; */
+}
+.TestSubHeading {
+  font-weight: 550;
+  font-size: 15px;
+}
+.labelTest {
+  margin-bottom: 0;
+}
+.btn12 {
+  width: fit-content;
+  padding: 5px 8px;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #910a8f;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.mcqSection {
+  display: flex;
+  background-color: #f0f0f0;
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+.mcqSection1 {
+  /* background-color: blue; */
+  display: flex;
+  gap: 10px;
+}
+
+.btnBox2 {
+  margin-top: 10px;
+  width: fit-content;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 6px;
+  font-weight: 500;
+  background-color: #f0eaea;
+  color: #000;
+}
+.viewCheckBoxBtn {
+  display: flex;
+  gap: 3px;
+}
+

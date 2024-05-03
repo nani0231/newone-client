@@ -1,0 +1,18 @@
+.Passcode67 {
+
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  min-width: 60%;
+  padding: 10px;
+  height: fit-content;
+  border-radius: 10px;
+  margin-left: -30px;
+
+  position: relative;
+
+
+}
+
+.head2 {
+  font-size: 22px;
+  font-weight: 900;
+}

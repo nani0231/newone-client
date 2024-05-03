@@ -1,0 +1,84 @@
+.bty {
+  padding: 6px;
+  border-radius: 5px;
+  color: white;
+  background-color:#823b80;
+}
+.switch{
+  font-size: 10px;
+ font-weight: 400;
+}
+
+.Passcode {
+
+
+  min-width: 65%;
+  position: absolute;
+  top: 80px;
+  right: 80px;
+  width: 350px;
+  height: 350px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  padding: 15px;
+
+}
+
+.view {
+  position: absolute;
+  top: 20px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.heading1 {
+  position: absolute;
+  top: 8px;
+  left: auto;
+  font-size: 20px;
+
+}
+
+.tk {
+  top: 30px
+}
+
+@media (max-width: 320px) {
+  .Passcode {
+    min-width: 90%;
+    top: 20px;
+    /* Adjust the top position for small screens */
+    right: 2px;
+    /* Adjust the right position for small screens */
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    /* Adjust the maximum width for 320px screens */
+  }
+}
+
+@media (max-width: 320px) {
+  .heading1 {
+    font-size: 18px;
+    /* Adjust the font size for 320px screens */
+    /* Add any other styles as needed for 320px screens */
+  }
+}
+
+ 
+  .table-container {
+    max-height: 250px; /* Set the maximum height as needed */
+    overflow-y: auto;
+  }
+  .ant-table-thead{
+    background-color: #DCDCDC !important;
+  }
+ 
+  .toogle{
+    margin-left: 20px;
+
+  }
+  .view_button2{
+    color:white;
+    background-color: #981a96;
+    border: none;
+  }

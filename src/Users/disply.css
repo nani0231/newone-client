@@ -1,0 +1,96 @@
+.Topicss {
+  min-width: 100%;
+  text-align: center;
+  color: #16c3ea;
+  height: 130px;
+  margin-top: 30px;
+}
+
+.head {
+ width: 100%;
+ text-align: center;
+
+
+}
+
+.parahead {
+  color: #000;
+  width: 100%;
+  text-align: center;
+
+}
+
+.cardt {
+  position: relative;
+  width: 15rem;
+  height: 150px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 16px;
+  background: linear-gradient(to bottom right, #e4ecf8 10%, #fbfcff 30%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.cardt:hover {
+  transform: scale(1.05);
+  border: 1px solid black;
+
+}
+
+.card-contentt {
+
+  z-index: 1;
+  /* Ensure the content is on top of the gradient */
+}
+
+.card-titlet {
+  font-size: 1rem;
+  /* margin-bottom: 8px; */
+  text-align: center;
+  margin-top: 10px;
+}
+
+.custom-button2t {
+  background-color: white;
+  color: #555;
+  font-size: 16px;
+  padding: 2px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+  border: 1px solid black;
+
+}
+
+/* Hover effect */
+.custom-button2t:hover {
+  background-color: #131921;
+  color: white;
+
+}
+
+.card-buttons-bottomt {
+  margin-top: auto;
+  /* Push the bottom button to the bottom of the card */
+  padding: 10px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.dt {
+  display: flex;
+  flex-direction: row;
+
+}

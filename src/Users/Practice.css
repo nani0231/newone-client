@@ -1,0 +1,104 @@
+.cardp{
+  position: relative;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.cardp:hover {
+  transform: scale(1.05);
+  border: 1px solid black;
+  
+}
+
+.bgf{
+  background-color: #2ECA8B33;
+  color:#2ECA88;
+  border-radius: 4px;
+  width: fit-content;
+  padding: 2px;
+}
+.bgr {
+  background-color:#E43f5233;
+  color:#E43f52;
+  border-radius: 4px;
+  width: fit-content;
+  padding: 2px;
+}
+
+.card-buttons-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  z-index: 1; 
+}
+.card-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, #bfe7bb, #ffffff);
+  z-index: 0; /* Place the gradient behind the card content */
+  opacity: 0.8; /* Adjust opacity as needed */
+}
+.card-title {
+  font-size: 1.5rem;
+  /* margin-bottom: 8px; */
+  text-align: center;
+}
+.card-content {
+  
+  z-index: 1; /* Ensure the content is on top of the gradient */
+}
+
+.custom-button2 {
+  background-color: white; 
+  color:#555; 
+  font-size: 16px;
+  padding: 2px; 
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 4px;
+  
+}
+
+/* Hover effect */
+.custom-button2:hover {
+  background-color:#202942  ; 
+  color: white;
+ 
+
+}
+.card-buttons-bottom {
+  margin-top: auto; /* Push the bottom button to the bottom of the card */
+  padding: 10px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Number{
+  color: rgb(165, 245, 165);
+  font-size: 30px;
+  
+}
+.card-text {
+  font-size: 1rem;
+  color: #555;
+  text-align: center;
+}
+
+

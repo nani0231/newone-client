@@ -1,0 +1,95 @@
+.profilename1 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.inputform {
+  border-radius: 10px;
+  border-color: rgb(152, 149, 149);
+}
+
+.reports {
+  /* font-size: 18px; */
+  color: gray;
+}
+
+.custom-checkbox {
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+}
+.creat12 {
+  border: none;
+  background-color: #910a8f;
+  color: #fff;
+  padding: 7px 20px;
+  border-radius: 7px;
+}
+
+.form-control:focus {
+  background-color: none;
+  outline: none;
+  box-shadow: none;
+  color: none;
+  border-color: black;
+
+}
+
+/* .form-control::placeholder {
+  color: rgb(92, 89, 89);
+} */
+.kk{
+  justify-content:center;
+}
+.leableheading{
+  color: rgb(92, 89, 89);
+  font-weight: 600;
+}
+.heading {
+  margin: 20px;
+  color: rgb(234, 144, 144);
+}
+
+.card12 {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+}
+.card123 {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.gobutton1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.gobutton{
+  background-color: #910a8f;
+  color: white;
+  border-color: none;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.selectbuton {
+  border: none;
+  color: black;
+  background-color: lightgray;
+  padding: 7px 10px;
+  border-radius: 7px;
+
+}
+.selectbuton:active{
+  background-color:midnightblue;
+  color: white;
+}
+ 
+ 
+ 
+
+ 
+ 
